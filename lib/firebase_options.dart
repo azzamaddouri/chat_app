@@ -50,19 +50,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBBMt4cV886_mAb4BK5yLvY5rE29oAxVqM',
-    appId: '1:262282868335:android:ef88863c91d9ee03c5bf9a',
-    messagingSenderId: '262282868335',
-    projectId: 'fir-media-hub-f275f',
-    storageBucket: 'fir-media-hub-f275f.appspot.com',
+    apiKey: 'AIzaSyCwqGSg8fgqe6VXS2YOQ_T8PWOLSS--Dno',
+    appId: '1:600024031089:android:43c7b2376adaf67fad60d0',
+    messagingSenderId: '600024031089',
+    projectId: 'freshfruits-5cee0',
+    databaseURL: 'https://freshfruits-5cee0-default-rtdb.firebaseio.com',
+    storageBucket: 'freshfruits-5cee0.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCddpH4x-GLajxvV26vKHGuQd-SVbIbjwQ',
-    appId: '1:262282868335:ios:5f193d6f8ba4e23bc5bf9a',
-    messagingSenderId: '262282868335',
-    projectId: 'fir-media-hub-f275f',
-    storageBucket: 'fir-media-hub-f275f.appspot.com',
+    apiKey: 'AIzaSyAq1x-0Z1nlLK_NmGNCu7On8-syj_VDrd0',
+    appId: '1:600024031089:ios:6e3e4531c3cd18a5ad60d0',
+    messagingSenderId: '600024031089',
+    projectId: 'freshfruits-5cee0',
+    databaseURL: 'https://freshfruits-5cee0-default-rtdb.firebaseio.com',
+    storageBucket: 'freshfruits-5cee0.appspot.com',
     iosBundleId: 'com.example.chatApp',
   );
 }

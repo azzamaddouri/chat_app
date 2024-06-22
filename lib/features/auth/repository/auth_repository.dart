@@ -102,4 +102,12 @@ class AuthRepository {
       showSnackBar(context: context, content: e.toString());
     }
   }
+
+  Stream<UserModel> userData(String userId) {
+    return firestore.collection('users').doc(userId).snapshots().map(
+          (event) => UserModel.fromMap(
+            event.data()!,
+          ),
+        );
+  }
 }

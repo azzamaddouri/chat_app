@@ -8,7 +8,6 @@ import 'package:chat_app/screens/mobile_layout_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -109,5 +108,12 @@ class AuthRepository {
             event.data()!,
           ),
         );
+  }
+
+  void setUserState(bool isOnline) async {
+    await firestore
+        .collection('users')
+        .doc(auth.currentUser!.uid)
+        .update({'isOnline': isOnline});
   }
 }

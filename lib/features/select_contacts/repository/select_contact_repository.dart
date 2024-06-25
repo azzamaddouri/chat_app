@@ -1,4 +1,4 @@
-import 'package:chat_app/screens/mobile_chat_screen.dart';
+import 'package:chat_app/features/chat/screens/mobile_chat_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_contacts/flutter_contacts.dart';
 import 'package:flutter/material.dart';

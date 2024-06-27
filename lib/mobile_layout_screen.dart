@@ -10,8 +10,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 
-import '../common/utils/colors.dart';
-import '../widgets/contact_list.dart';
+import 'common/utils/colors.dart';
+import 'features/chat/widgets/contact_list.dart';
 
 class MobileLayoutScreen extends ConsumerStatefulWidget {
   const MobileLayoutScreen({super.key});

@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
 
-import '../features/chat/screens/mobile_chat_screen.dart';
+import '../screens/mobile_chat_screen.dart';
 
 class ContactList extends ConsumerWidget {
   const ContactList({super.key});

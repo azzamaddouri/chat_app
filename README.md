@@ -21,7 +21,7 @@ This project implements a comprehensive chatting application using Flutter, Fire
 
 ## Project Demo
 
-You can watch a demo of the project on YouTube:
+You can watch a demo of the project on YouTube :
 
 [![Project Demo Poster](https://img.youtube.com/vi/CncSbLA1Cm8/maxresdefault.jpg)](https://youtu.be/CncSbLA1Cm8)
 

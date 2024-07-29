@@ -20,5 +20,7 @@ This project implements a comprehensive chatting application using Flutter, Fire
 - **Message Replying:** Allows users to reply to specific messages.
 
 ## Project Demo
+You can watch a demo of the project on YouTube:
+[![Project Demo Poster](https://your-image-hosting-url.com/path-to-your-poster.jpg)](https://youtu.be/CncSbLA1Cm8)
 
-You can watch a demo of the project on YouTube: [Project Demo](https://youtu.be/CncSbLA1Cm8)
+
